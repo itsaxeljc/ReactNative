@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #68d372;
+  color: #2596be;
 }
 
 input, textarea {
@@ -40,14 +40,14 @@ input:focus, textarea:focus {
 }
 
 .btn-success {
-  background-color: #68d372;
-  border-color: #68d372;
+  background-color: #2596be;
+  border-color: #2596be;
   border-radius: 0px;
   font-weight: 600;
 }
 
 .btn-success:hover {
-  background-color: #4ea156;
+  background-color: #2596be;
 }
 
 .btn-outline-success {
@@ -61,7 +61,7 @@ input:focus, textarea:focus {
 }
 
 .btn-outline-success:hover {
-  background-color: #4ea156;
+  background-color: #2596be;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .green {
-  color: #68d372;
+  color: #2596be;
 }
 
 .white {
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .navbar-brand {
   position: absolute;
   top: 0;
-  background-color: #68d372;
+  background-color: #2596be;
   display: inline-block;
   padding: 20px 10px 0px 10px;
   font-size: 2em;
@@ -105,11 +105,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar li .nav-link:hover {
-  color: #68d372;
+  color: #2596be;
 }
 
 .navbar li .active {
-  color: #68d372;
+  color: #2596be;
 }
 
 .navbar .btn {
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-  color: #68d372;
+  color: #2596be;
   font-weight: bold;
 }
 
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 #skills .skills-progress .skill-wrapper .progress .half-circle {
   height: 100%;
   width: 100%;
-  border: 10px solid #68d372;
+  border: 10px solid #2596be;
   border-radius: 50%;
   clip: rect(0, 90px, 180px, 0);
   left: 0;
@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience .jobs .job-item {
-  border-left: 2px solid #68d372;
+  border-left: 2px solid #2596be;
   padding: 0px 40px 0px;
   padding-bottom: 20px;
   position: relative;
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   width: 30px;
   height: 2px;
-  background-color: #68d372;
+  background-color: #2596be;
   display: block;
   position: absolute;
   left: 0px;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   background-color: white;
-  border: 2px solid #68d372;
+  border: 2px solid #2596be;
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #experience .jobs .job-item .position {
   font-weight: 600;
-  color: #68d372;
+  color: #2596be;
   font-size: 1.3rem;
 }
 
@@ -520,7 +520,7 @@ footer .copyright p a {
 }
 
 footer .copyright p a:hover {
-  color: #68d372;
+  color: #2596be;
 }
 
 @media (min-width: 768px) {
@@ -537,7 +537,7 @@ footer .copyright p a:hover {
     width: 2px;
     height: 120px;
     display: block;
-    background-color: #68d372;
+    background-color: #2596be;
     position: absolute;
     top: 0;
     left: 50%;
@@ -571,7 +571,7 @@ footer .copyright p a:hover {
     width: 2px;
     height: 100px;
     display: block;
-    background-color: #68d372;
+    background-color: #2596be;
     position: absolute;
     top: 150px;
     left: 0;
@@ -616,7 +616,7 @@ footer .copyright p a:hover {
     text-align: right;
     padding-left: 0;
     border-left: 0px;
-    border-right: 2px solid #68d372;
+    border-right: 2px solid #2596be;
   }
   #experience .jobs .first .date::before, #experience .jobs .third .date::before {
     left: 100%;
@@ -687,7 +687,7 @@ footer .copyright p a:hover {
     width: 122px;
     height: 2px;
     display: block;
-    background-color: #68d372;
+    background-color: #2596be;
     position: absolute;
     top: 115px;
     left: -140px;
