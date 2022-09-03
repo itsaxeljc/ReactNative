@@ -16,6 +16,21 @@ body {
   color: #6e6e6e;
 }
 
+html::-webkit-scrollbar {
+  width: 6px;     /* Tamaño del scroll en vertical */
+  height: 6px;    /* Tamaño del scroll en horizontal */
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #2596be;
+  border-radius: 4px;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 10px;  
+  background: #222222;
+}
+
 .fb2022-copy {
   display: none;
 }
@@ -758,3 +773,4 @@ footer .copyright p a:hover {
   }
 }
 /*# sourceMappingURL=main.css.map */
+
