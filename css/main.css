@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   position: absolute;
   font-size: 0.9rem;
-  width: 100%;
+  width: 105%;
   bottom: -60px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #skills .skills-progress .skill-wrapper .label {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 900;
   position: absolute;
   top: 50%;
@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #skills .skills-progress .skill-wrapper .label .smaller {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #skills .skills-progress .skill-wrapper.progress-64 .progress {
