@@ -22,7 +22,7 @@
       <main data-scroll-container="">
         <nav class="navbar navbar-expand-lg fixed-top">
           <div class="container">
-            <a class="navbar-brand" href="index.html">R</a>
+            <a class="navbar-brand" href="#intro" data-scroll-to>R</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
             </button>
@@ -304,11 +304,20 @@
     <script>
       const Locoscroll = new LocomotiveScroll({
         el:document.querySelector("[data-scroll-container]"),
-        smooth:true,
-        smarphone:{
-          smooth:true
+        inertia: 0.8,
+        smooth: true,
+        getDirection: true,
+        mobile: {
+          smooth: true,
+          inertia: 0.8,
+          getDirection: true,
+        },
+        tablet: {
+          smooth: true,
+          inertia: 0.8,
+          getDirection: true,
         }
-      });
+          });
       
     </script>
 </body>
