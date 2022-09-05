@@ -14,60 +14,62 @@
     <script src="https://kit.fontawesome.com/0e035b9984.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0e035b9984.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/rrg4put.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">R</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-card-item">
-                <a class="nav-link  active" href="#about">React Native</a>
-              </li>
-              <li class="nav-card-item">
-                <a class="nav-link" href="#bio">Historia</a>
-              </li>
-              <li class="nav-card-item">
-                <a class="nav-link" href="#skills">Ventajas</a>
-              </li>
-              <li class="nav-card-item">
-                <a class="nav-link" href="#experience">Características</a>
-              </li>
-              <li class="nav-card-item">
-                <a class="nav-link" href="#contact">Comunidad</a>
-              </li>          
-            </ul>
-            <ul class="navbar-nav ms-auto">
-              <a class="nav-link btn btn-success py-2 px-4 text-nowrap" href="https://reactnative.dev/">Sitio oficial</a>
-            </ul>
+      
+      <main data-scroll-container="">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#intro" data-scroll-to>R</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-card-item">
+                  <a class="nav-link  active" href="#about" data-scroll-to>React Native</a>
+                </li>
+                <li class="nav-card-item">
+                  <a class="nav-link" href="#bio" data-scroll-to>Historia</a>
+                </li>
+                <li class="nav-card-item">
+                  <a class="nav-link" href="#skills" data-scroll-to>Ventajas</a>
+                </li>
+                <li class="nav-card-item">
+                  <a class="nav-link" href="#experience" data-scroll-to>Características</a>
+                </li>
+                <li class="nav-card-item">
+                  <a class="nav-link" href="#contact" data-scroll-to>Comunidad</a>
+                </li>          
+              </ul>
+              <ul class="navbar-nav ms-auto">
+                <a class="nav-link btn btn-success py-2 px-4 text-nowrap" href="https://reactnative.dev/">Sitio oficial</a>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <main>
+        </nav>
       <!-- Intro -->
-      <section id="intro">
-        <div class="container">
-          <div class="text">
+      <section id="intro" data-scroll-section="">
+        <div class="container" class="text">
+          <div class="text" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="3">
             <h1>
             <span class="green">React Native</span>
             Equipo 1</h1>
             <p>Learn once, write anywhere.</p>
-            <a class="btn btn-success py-2" href="https://reactnative.dev/">Sitio oficial</a>
-            <a class="scroll" href="#about"><img style="width: 20px;" src="img/icon/icon-scroll-down.svg" alt="">Scroll down</a>
+            <a class="btn btn-success py-2" href="https://reactnative.dev/" >Sitio oficial</a>
+            <a class="scroll" href="#about" ><img style="width: 20px;" src="img/icon/icon-scroll-down.svg" alt="">Scroll down</a>
           </div>
-          <div class="img"><img src="img/cover-native.png" alt=""></div>
+          <div class="img" data-scroll="" data-scroll-delay="0.10" data-scroll-speed="3"><img src="img/cover-native.png" alt=""></div>
         </div>
       </section>
       <!-- React Native -->
-      <section id="about">
+      <section id="about" data-scroll-section="">
         <div class="about container">
-          <h6 class="section-title">React Native</h6>
+          <h6 class="section-title" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="1">React Native</h6>
             <div class="about-wrapper">
-              <div class="left">
+              <div class="left" data-scroll="" data-scroll-delay="0.14" data-scroll-speed="2">
                 <div>
                  <img src="img/icon/woman-icon.svg" alt=""><h2><span class="green">2015</span> Lanzado
                   por Facebook, creado por Jordan Walke & Christopher Chedeau</h2>
@@ -77,7 +79,7 @@
                   apps híbridas se desarrollan en React Native (2021)</h2>
                 </div>
                </div>
-               <div class="right">
+               <div class="right" data-scroll="" data-scroll-delay="0.10" data-scroll-speed="2">
                  <h1>Un poco sobre <span class="green">React Native</span></h1>
                  <p>React Native es un framework JavaScript para crear aplicaciones reales nativas para iOS y Android, basado en la librería de JavaScript React para la creación de componentes visuales, cambiando el propósito de los mismos para, en lugar de ser ejecutados en navegador, correr directamente sobre las plataformas móviles nativas, en este caso iOS y Android. Es decir, en lugar de desarrollar una aplicación web híbrida o en HTML5, lo que obtienes al final como resultado es una aplicación real nativa, indistinguible de la que podrías desarrollar con tu código en Objective-C o Java.
                   React Native combina las mejores partes del desarrollo nativo con React, la mejor biblioteca de JavaScript de su clase para crear interfaces de usuario.
@@ -87,12 +89,12 @@
         </div>
       </section>
       <!-- Historia -->
-      <section id="bio">
+      <section id="bio" data-scroll-section="">
         <div class="bio container">
-            <div class="img">
+            <div class="img" data-scroll="" data-scroll-delay="0.2" data-scroll-speed="-0.5">
               <img src="img/creador-react.jpg" alt="">
             </div>
-            <div class="text">
+            <div class="text" data-scroll="" data-scroll-delay="0.6" data-scroll-speed="-0.2">
               <h6 class="section-title">Historia</h6>
               <h1><span class="green">React Native<br></span> y su creación</h1>
               <p>En 2012 Christopher Chedeau se une a Jordan Walke (el creador de ReactJS) para construir un prototipo que permitiera desarrollar aplicaciones que utilizaran componentes nativos a través de JavaScript. No fue hasta 2015 que Facebook lanza React Native como open source.</p>
@@ -100,11 +102,11 @@
         </div>
       </section>
       <!-- Skills -->
-      <section id="skills" class="text-center">
+      <section id="skills" class="text-center" data-scroll-section="">
         <div class="container">
-          <h6 class="section-title">Ventajas</h6>
-          <h1>El poder de <span class="green">React Native</span></h1>
-            <div class="skills-progress ">
+          <h6 class="section-title" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="1.5">Ventajas</h6>
+          <h1 data-scroll="" data-scroll-delay="0.18" data-scroll-speed="0.5">El poder de <span class="green">React Native</span></h1>
+            <div data-scroll="" data-scroll-delay="0.14" data-scroll-speed="2.5" class="skills-progress ">
               <div class="skill-wrapper progress-64">
                 <span class="label">R<span class="smaller">endimiento</span></span>
                 <div class="progress">
@@ -163,11 +165,11 @@
         </div>
       </section>
       <!-- Experience -->
-      <section id="experience" class="text-center">
+      <section id="experience" class="text-center" data-scroll-section="">
         <div class="container">
-          <h6 class="section-title">Características</h6>
-          <h1>Esto es <span class="green">React Native</span></h1>
-          <div class="jobs">
+          <h6 class="section-title" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="0">Características</h6>
+          <h1 data-scroll="" data-scroll-delay="0.18" data-scroll-speed="0">Esto es <span class="green">React Native</span></h1>
+          <div class="jobs" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="0.5">
 
             <div class="job-item first">
               <p class="date">Escribe una vez y úsalo en todas partes</p>
@@ -230,12 +232,15 @@
         </div>
       </section>
       <!-- Contact -->
-      <section id="contact" class="text-center">
+      <section id="contact" class="text-center" data-scroll-section="">
         <div class="container">
-          <h6 class="section-title">Comunidad</h6>
-        <h1><span class="green">Donde</span> encontrar ayuda</h1>
-        
-        <div class="row">
+<<<<<<< HEAD
+<h6 class="section-title" data-scroll="" data-scroll-delay="0.18" data-scroll-speed="2.5">Comunidad</h6>
+<h1 data-scroll="" data-scroll-delay="0.18" data-scroll-speed="2.5"><span class="green">Donde</span> encontrar ayuda</h1>
+<div class="row" data-scroll="" data-scroll-delay="0.14" data-scroll-speed="2.5">
+=======
+          
+>>>>>>> c58cf0392fb71d27adb7152dd9b527aec836c7ca
           <div class=" form col-md-7 col-lg-8">
               <form id="contact-form" action="" method="post">
                 <div class="form-group">
@@ -301,5 +306,25 @@
       <div class="fb2022-copy">Fbee 2022 copyright</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous" target="_blank"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.min.js"></script>
+    <script>
+      const Locoscroll = new LocomotiveScroll({
+        el:document.querySelector("[data-scroll-container]"),
+        inertia: 0.8,
+        smooth: true,
+        getDirection: true,
+        mobile: {
+          smooth: true,
+          inertia: 0.8,
+          getDirection: true,
+        },
+        tablet: {
+          smooth: true,
+          inertia: 0.8,
+          getDirection: true,
+        }
+          });
+      
+    </script>
 </body>
 </html>
